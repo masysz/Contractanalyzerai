@@ -1,11 +1,20 @@
 {
-  "name": "ai-analyzer",
+  "name": "contract-analyzer",
   "version": "1.0.0",
-  "scripts": {
-    "start": "vercel dev"
-  },
+  "main": "index.js",
   "dependencies": {
-    "axios": "^1.4.0",
-    "openai": "^4.0.0"
-  }
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "private": true
 }
