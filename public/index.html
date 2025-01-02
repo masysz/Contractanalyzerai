@@ -23,7 +23,7 @@
       const contractAddress = document.getElementById("contractAddress").value;
 
       try {
-        const response = await fetch("/api/analyze", {
+        const response = await fetch("/pages/api/analyze", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ contractAddress }),
